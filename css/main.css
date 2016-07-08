@@ -1,0 +1,51 @@
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  font-family: "Open Sans";
+  background-color: #AAAAAA;
+}
+
+div.display {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  left: 10px;
+  top: 340px;
+  width: 800px;
+  height: 600px;
+  background-color: #FFFFFF;
+}
+
+div.control {
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 780px;
+  height: 300px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  background-color: #DDDDDD;
+  padding: 4px;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  cursor: crosshair;
+}
+
+div.lane_controller {
+  margin: 5px;
+  padding: 5px;
+  background-color: #DDDDDD;
+}
